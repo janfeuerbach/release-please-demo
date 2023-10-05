@@ -7,12 +7,14 @@
     "url": "git+https://github.com/janfeuerbach/release-please-demo.git"
   },
   "scripts": {
-    "start": "node ./src/main.js"
+    "start": "node ./src/main.js",
+    "release": "conventional-changelog -p conventionalcommits"
   },
   "author": "Jan Feuerbach",
   "devDependencies": {
     "@commitlint/cli": "^17.7.2",
     "@commitlint/config-conventional": "^17.7.0",
+    "conventional-changelog-cli": "^4.1.0",
     "husky": "^8.0.3"
   }
 }
